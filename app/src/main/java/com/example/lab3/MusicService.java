@@ -15,7 +15,7 @@ public class MusicService extends Service {
     public void onCreate() {
         super.onCreate();
         // Replace R.raw.your_game_music with your music file
-        mediaPlayer = MediaPlayer.create(this, R.raw.fnaf2);
+        mediaPlayer = MediaPlayer.create(this, R.raw.matrix);
         mediaPlayer.setLooping(true); // Set looping
     }
 
